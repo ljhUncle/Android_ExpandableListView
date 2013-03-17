@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="3dip" >
+
+    <ImageView
+        android:id="@+id/item_list_view_child_image"
+        android:layout_width="@dimen/item_expand_listview_child_icon_width"
+        android:layout_height="@dimen/item_expand_listview_child_icon_height"
+        android:layout_alignParentLeft="true"
+        android:background="#ff292929"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_non_image_bg" />
+
+    <!-- <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/item_st_child_image"
+        android:layout_marginLeft="8dip"
+        android:layout_toRightOf="@+id/item_st_child_image" >
+
+        <TextView
+            android:id="@+id/item_st_child_category"
+            style="@style/item_st_child_txt_category"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="25dp"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/item_st_child_address"
+            style="@style/item_st_child_txt_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="25dp"
+            android:ellipsize="end"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/item_st_child_shop_name"
+            style="@style/item_st_child_txt_shop_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/item_st_child_address"
+            android:layout_below="@+id/item_st_child_category"
+            android:layout_marginRight="25dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2" />
+
+        <com.gt.mall.item.ItemCommonMichelinStar
+            android:id="@+id/item_st_child_rating_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="12dp" />
+    </RelativeLayout> -->
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="item_expand_listview_group_height">25dp</dimen>
+    <dimen name="item_expand_listview_child_icon_width">95dp</dimen>
+    <dimen name="item_expand_listview_child_icon_height">85dp</dimen>
+    
+</resources>
